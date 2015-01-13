@@ -2,12 +2,17 @@
 
 **Work still in progress**
 
-This is a view engine inspired by [express-react-views][reactjs/express-react-views] to
-compile React JSX files at request time with [Express][express] based servers.
+This is a view engine inspired by
+[express-react-views](http://github.com/reactjs/express-react-views) to compile
+React JSX files at request time with
+[Express](http://github.com/strongloop/express) based servers.
 
-Unlike express-react-views however, it compiles templates with [6to5][6to5].
+Unlike express-react-views however, it compiles templates with
+[6to5](http://github.com/6to5/6to5).
 
-Why? Simply because it has better support for ES6 features, and is a transpiler you're more than likely to use.
+Why? Simply because it has better support for ES6 features, and is a transpiler
+you're more than likely to use. As a bonus, 6to5 already can transpile JSX
+without any additional dependencies.
 
 ## Setup
 
