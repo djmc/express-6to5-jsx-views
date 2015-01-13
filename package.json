@@ -1,0 +1,19 @@
+{
+  "name": "express-6to5-jsx-views",
+  "version": "0.0.1",
+  "description": "Use React JSX views built in ES6 with 6to5 transpiler in Express.",
+  "keywords": ["react", "express", "es6", "jsx", "esnext", "6to5"],
+  "homepage": "",
+  "license": "MIT",
+  "author": "Daniel McKenzie (http://github.com/djmc)",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/djmc/express-6to5-jsx-views.git"
+  },
+  "private": false,
+  "dependencies": {
+      "6to5": "^2.11.4",
+      "object-assign": "^2.0.0",
+      "react": "^0.12.2"
+  }
+}
